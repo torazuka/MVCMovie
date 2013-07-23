@@ -11,14 +11,14 @@ namespace MvcMovie.Controllers
         //
         // GET: /HelloWorld/
 
-        public String Index()
+        public string Index()
         {
             return "This is my <b>default</b> action...";
         }
 
         // 
         // GET: /HelloWorld/Welcome
-        public String Welcome()
+        public string Welcome()
         {
             return "This is the Welcome action method...";
         }

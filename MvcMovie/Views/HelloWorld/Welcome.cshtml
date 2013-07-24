@@ -3,9 +3,11 @@
 }
 
 <h2>Welcome</h2>
+@if(0 < ViewBag.numTimes){
 <ul>
     @for (int i = 0; i < ViewBag.numTimes; i++)
     {
         <li>@ViewBag.Message</li>
     }
 </ul>
+}
